@@ -18,7 +18,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
     - name: Test
-      run: cd test && pytest
+      run: pytest
     - name: Docker Build
       id: docker_build
       uses: docker/build-push-action@v2

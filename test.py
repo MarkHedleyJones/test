@@ -1,3 +1,5 @@
 !#/usr/bin/env python3
 
-print("test is all good")
+def test_nothing():
+  print("test is all good")
+  return True
